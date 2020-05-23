@@ -1,0 +1,11 @@
+{
+  "/field-manager/auth-config": {
+    "target": "http://localhost:4200",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/field-manager/auth-config": "/repository/auth-config.json"
+    }
+  }
+}
